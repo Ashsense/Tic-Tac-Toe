@@ -68,13 +68,13 @@ buttons = StringVar()
 clear = Button(root , text="Clear ALl",  font='Times 20 bold', bg='gray', fg='black', height=4, width=8, command=lambda:clearall())
 clear.grid(row = 0 , column = 3)
 
-label = Label(root, text="Player 1(X):", font='Times 20 bold', bg='white', fg='black', height=1, width=4)
+label = Label(root, text="Player 1(X):", font='Times 20 bold', bg='white', fg='black', height=1, width=8)
 label.grid(row=1, column=0)
 player1_name = Entry(root, textvariable=player1, bd=5)
 player1_name.grid(row=1, column=1, columnspan=8)
 
 
-label = Label(root, text="Player 2(O):", font='Times 20 bold', bg='white', fg='black', height=1, width=4)
+label = Label(root, text="Player 2(O):", font='Times 20 bold', bg='white', fg='black', height=1, width=8)
 label.grid(row=2, column=0)
 player2_name = Entry(root, textvariable=player2, bd=5)
 player2_name.grid(row=2, column=1, columnspan=8)
