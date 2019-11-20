@@ -4,7 +4,7 @@ root = Tk()
 root.title("Tic Tac Toe")
 
 click = True                                           #defineglobalvaraible
-x = 1         #defineglobal varaible
+x = 1                                                  #defineglobal varaible
 
 
 def ttt(buttons):                                              #defafunctionforx
